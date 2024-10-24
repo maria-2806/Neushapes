@@ -84,8 +84,8 @@ export default function NeumorphismEditor() {
                 <h2 className="text-lg font-semibold text-white mb-2">Generated CSS</h2>
                 <pre className="text-sm text-gray-300 whitespace-pre-wrap">
                   {
-                  `width: ${size}px,
-height: ${size}px,
+                  `width: ${size}px;
+height: ${size}px;
 box-shadow: ${intensity}px ${intensity}px ${blur}px ${isDarkMode ? '#1a1a1a' : '#bebebe'}, 
 -${intensity}px -${intensity}px ${blur}px ${isDarkMode ? '#2c2c2c' : '#ffffff'};
 border-radius: ${cornerRadius}%;
